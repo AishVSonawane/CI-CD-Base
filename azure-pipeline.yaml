@@ -77,5 +77,5 @@ stages:
           mavenAuthenticateFeed: false
           effectivePomSkip: false
           sonarQubeRunAnalysis: false
-      - template: copypublish.yml
+      - template: copy-publish.yml
          
