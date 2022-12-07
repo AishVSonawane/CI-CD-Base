@@ -1,3 +1,26 @@
+parameters:
+- name: appType
+  default: ''
+- name: vmimage
+  default: ''
+- name: node_version
+  default: ''
+- name: solution
+  default: ''
+- name: buildPlatform
+  default: ''
+- name: buildConfiguration
+  default: ''
+- name: tag
+  default: ''
+- name: npm_config_cache
+  default: ''
+- name: is_main
+  default: ''
+- name: generate_source_maps
+  default: ''
+  
+  
 variables:
 - template: variables.yml
 
